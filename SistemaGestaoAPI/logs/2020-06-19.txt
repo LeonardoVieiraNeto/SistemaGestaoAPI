@@ -1,0 +1,51 @@
+2020-06-19 13:05:06,095 [1] INFO  App  
+ Now listening on: https://localhost:5001 
+ 
+2020-06-19 13:05:06,116 [1] INFO  App  
+ Application started. Press Ctrl+C to shut down. 
+ 
+2020-06-19 13:05:06,121 [1] INFO  App  
+ Hosting environment: Development 
+ 
+2020-06-19 13:05:06,125 [1] INFO  App  
+ Content root path: /Users/leonardoneto/Projects/SistemaGestaoAPI/SistemaGestaoAPI 
+ 
+2020-06-19 13:05:19,195 [4] DEBUG App  
+ Método GetProduct - GetById - Entrou no método 
+ 
+2020-06-19 13:05:19,197 [4] DEBUG App  
+ Método GetProduct - GetById - id = 10 
+ 
+2020-06-19 13:05:19,544 [4] DEBUG App  
+ Método GetProduct - GetById - Fim do método 
+ 
+2020-06-19 13:05:57,149 [17] DEBUG App  
+ Método GetProduct - GetByName - Entrou no método 
+ 
+2020-06-19 13:05:57,150 [17] DEBUG App  
+ Método GetProduct - GetByName - name = queijo 
+ 
+2020-06-19 13:05:57,155 [17] DEBUG App  
+ Método GetProduct - GetByName - Fim do método 
+ 
+2020-06-19 13:06:03,912 [16] DEBUG App  
+ Método GetProduct - GetByName - Entrou no método 
+ 
+2020-06-19 13:06:03,912 [16] DEBUG App  
+ Método GetProduct - GetByName - name = Queijo fresco 
+ 
+2020-06-19 13:06:03,915 [16] DEBUG App  
+ Método GetProduct - GetByName - Fim do método 
+ 
+2020-06-19 15:35:05,406 [1] INFO  App  
+ Now listening on: https://localhost:5001 
+ 
+2020-06-19 15:35:05,425 [1] INFO  App  
+ Application started. Press Ctrl+C to shut down. 
+ 
+2020-06-19 15:35:05,429 [1] INFO  App  
+ Hosting environment: Development 
+ 
+2020-06-19 15:35:05,432 [1] INFO  App  
+ Content root path: /Users/leonardoneto/Projects/SistemaGestaoAPI/SistemaGestaoAPI 
+ 

@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/leonardoneto/Projects/SistemaGestaoAPI/SistemaGestaoAPI/SistemaGestaoAPI.csproj": {}
+  },
+  "projects": {
+    "/Users/leonardoneto/Projects/SistemaGestaoAPI/SistemaGestaoAPI/SistemaGestaoAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardoneto/Projects/SistemaGestaoAPI/SistemaGestaoAPI/SistemaGestaoAPI.csproj",
+        "projectName": "SistemaGestaoAPI",
+        "projectPath": "/Users/leonardoneto/Projects/SistemaGestaoAPI/SistemaGestaoAPI/SistemaGestaoAPI.csproj",
+        "packagesPath": "/Users/leonardoneto/.nuget/packages/",
+        "outputPath": "/Users/leonardoneto/Projects/SistemaGestaoAPI/SistemaGestaoAPI/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/leonardoneto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Server.Kestrel": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
