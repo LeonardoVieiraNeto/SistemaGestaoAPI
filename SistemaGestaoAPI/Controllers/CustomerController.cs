@@ -31,8 +31,6 @@ namespace SistemaGestaoAPI.Controllers
         {
             List<Customer> customerList = new List<Customer>();
 
-            //Teste de alteração no arquivo !!!!
-
             using (MySqlConnection conn = GetConnection())
             {
                 string sql = @"Select * From customer ";
@@ -70,6 +68,8 @@ namespace SistemaGestaoAPI.Controllers
             using (MySqlConnection conn = GetConnection())
             {
                 string sql = @"Select * From customer where customer_id = " + id;
+
+                //Teste de alteração de arquivo !!!!
 
                 conn.Open();
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
